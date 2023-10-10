@@ -1,0 +1,49 @@
+* {
+    font-family: garamond;
+    background-color: mistyrose;
+    color: rgb(62, 39, 35);
+    text-align: center;
+}
+
+#left {
+    width: 20%;
+    height: 600px;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
+    overflow: auto;
+}
+
+#left img {
+    width: 100%;
+}
+
+#right {
+    width: 65%;
+    height: 600px;
+}
+
+.min {
+    width: 140px;
+    padding: 2px;
+    border-radius: 5%;
+}
+
+.min:hover {
+    border: 1px dotted black;
+}
+
+#right #zdj {
+    width: 500px;
+    margin: 30px;
+    box-shadow: 15px 15px 10px dimgray;
+}
+
+table {
+    border: 1px dashed black;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
