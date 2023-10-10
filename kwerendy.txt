@@ -1,4 +1,4 @@
-Kwerenda 1:
-Kwerenda 2:
-Kwerenda 3:
-Kwerenda 4:
+Kwerenda 1: SELECT nazwa,pasmo FROM `szczyty` WHERE wysokosc>1500;
+Kwerenda 2: SELECT nazwa FROM szczyty WHERE wysokosc = (SELECT MAX(wysokosc) FROM szczyty);
+Kwerenda 3: CREATE USER 'leon'@'localhost' identified by 'Leon%Zawodowiec';
+Kwerenda 4: GRANT ALL PRIVILEGES on gory to 'leon'@'localhost';
